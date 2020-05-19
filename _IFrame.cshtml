@@ -1,2 +1,18 @@
-@Content.Toolbar
-@Html.Raw("<div class='iframe-holder' style='width:100%; max-width:100%;'><iframe src='" + @Content.EmbedURL + "' style='width:" + @Content.Width + "%; max-width:100%; height:" + @Content.Height + "px; box-sizing:border-box; border-top:0px solid #009CDE; border-bottom:0px solid #009CDE; margin:0; padding: 0px 0; overflow:" + (Content.ResponsiveIFrame == true ? "hidden" : "auto") + ";' scrolling='" + (Content.ResponsiveIFrame == true ? "no" : "yes") + "'></iframe></div>")
+@inherits ToSic.Sxc.Dnn.RazorComponent
+@using ToSic.Razor.Blade;
+
+<div class='iframe-holder' style='width:100%; max-width:100%;' @Edit.TagToolbar(Content)>
+  <iframe
+    src="@Tags.SafeUrl(Content.EmbedURL)"
+    scrolling='@(Content.EnableScrollbar == true ? "yes" : "no")'
+    style='max-width: 100%;
+        box-sizing: border-box;
+        border-top: 0px;
+        border-bottom: 0px;
+        margin: 0;
+        padding: 0;
+        height: @(Content.Height)px;
+        width: @(Content.Width)%;
+        overflow: @(Content.EnableScrollbar == true ? "auto" : "hidden");'>
+  </iframe>
+<div>
