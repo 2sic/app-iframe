@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="11.01.01" ExportDate="2020-05-20T10:24:24.4383445+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="11.11.05" ExportDate="2021-03-24T11:00:48.1301091+01:00">
   <Header>
     <App Guid="09a0a564-50d3-4886-965e-a84eaffedb2c" />
-    <Language Default="en-US" />
+    <Language Default="en-us" />
     <Dimensions>
       <Dimension DimensionID="131" Name="English (United States)" SystemKey="" ExternalKey="en-US" Active="true" />
       <Dimension DimensionID="132" Name="Deutsch (Deutschland)" SystemKey="" ExternalKey="de-DE" Active="true" />
@@ -163,25 +163,13 @@
             </Value>
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Number" AttributeSetName="@Number" EntityGUID="c4b5ca25-f711-49bf-ac5c-f9cf58ab8d68" Json="True" KeyNumber="1131">
-            <Value Key="AddressMask" Value="" Type="String">
+            <Value Key="Decimals" Value="0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="Decimals" Value="0.0" Type="Number">
+            <Value Key="Max" Value="100" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="InputType" Value="" Type="String">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="Max" Value="100.0" Type="Number">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="Min" Value="50.0" Type="Number">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="ValidationRegEx" Value="" Type="String">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
+            <Value Key="Min" Value="50" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
           </Entity>
@@ -220,25 +208,13 @@
             </Value>
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Number" AttributeSetName="@Number" EntityGUID="747e7d9a-c0e6-41e4-b593-e31e4d42af93" Json="True" KeyNumber="1132">
-            <Value Key="AddressMask" Value="" Type="String">
+            <Value Key="Decimals" Value="0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="Decimals" Value="0.0" Type="Number">
+            <Value Key="Max" Value="1800" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="InputType" Value="" Type="String">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="Max" Value="1800.0" Type="Number">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="Min" Value="50.0" Type="Number">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="ValidationRegEx" Value="" Type="String">
-              <Dimension DimensionID="131" ReadOnly="false" />
-            </Value>
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
+            <Value Key="Min" Value="50" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
           </Entity>
@@ -316,7 +292,7 @@
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Version" Value="02.00.00" Type="String">
+      <Value Key="Version" Value="02.00.01" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
     </Entity>
