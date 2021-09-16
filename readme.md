@@ -1,6 +1,6 @@
 <image src="app-icon.png" align="right" width="200px">
 
-# IFrame 2 - IFrame App
+# IFrame 3 - IFrame App
 
 > This is a 2sxc App for [DNN ☢️](https://www.dnnsoftware.com/) and [Oqtane 💧](https://www.oqtane.org/)
 
