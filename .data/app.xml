@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="11.11.05" ExportDate="2021-03-24T11:00:48.1301091+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="12.04.01" ExportDate="2021-09-16T16:01:51.0255198+02:00">
   <Header>
     <App Guid="09a0a564-50d3-4886-965e-a84eaffedb2c" />
     <Language Default="en-us" />
@@ -224,10 +224,13 @@
             <Value Key="CustomJavaScript" Value="" Type="String">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="DefaultValue" Value="" Type="String">
+            <Value Key="DefaultValue" Value="false" Type="String">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
             <Value Key="Disabled" Value="False" Type="Boolean">
+              <Dimension DimensionID="131" ReadOnly="false" />
+            </Value>
+            <Value Key="DisableTranslation" Value="False" Type="Boolean">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
             <Value Key="InputType" Value="boolean-default" Type="String">
@@ -245,6 +248,9 @@
             <Value Key="Notes" Value="&lt;p&gt;Aktiviert die horizontale Scrollbar&lt;/p&gt;" Type="String">
               <Dimension DimensionID="132" ReadOnly="false" />
             </Value>
+            <Value Key="Placeholder" Value="" Type="String">
+              <Dimension DimensionID="131" ReadOnly="false" />
+            </Value>
             <Value Key="Required" Value="False" Type="Boolean">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
@@ -255,7 +261,23 @@
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
           </Entity>
-          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Boolean" AttributeSetName="@Boolean" EntityGUID="2f4f6e2c-4824-458e-8666-78d475cc349c" Json="True" KeyNumber="1133" />
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Boolean" AttributeSetName="@Boolean" EntityGUID="2f4f6e2c-4824-458e-8666-78d475cc349c" Json="True" KeyNumber="1133">
+            <Value Key="TitleFalse" Value="Hide Vertical Scroolbar" Type="String">
+              <Dimension DimensionID="131" ReadOnly="false" />
+            </Value>
+            <Value Key="TitleFalse" Value="Scroolbar verstecken" Type="String">
+              <Dimension DimensionID="132" ReadOnly="false" />
+            </Value>
+            <Value Key="TitleIndeterminate" Value="" Type="String">
+              <Dimension DimensionID="131" ReadOnly="false" />
+            </Value>
+            <Value Key="TitleTrue" Value="Show Vertical Scrollbar" Type="String">
+              <Dimension DimensionID="131" ReadOnly="false" />
+            </Value>
+            <Value Key="TitleTrue" Value="Scroolbar anzeigen" Type="String">
+              <Dimension DimensionID="132" ReadOnly="false" />
+            </Value>
+          </Entity>
         </Attribute>
       </Attributes>
     </AttributeSet>
@@ -274,7 +296,7 @@
       <Value Key="DisplayName" Value="IFrame" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Folder" Value="IFrame2" Type="String">
+      <Value Key="Folder" Value="IFrame3" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="Hidden" Value="False" Type="Boolean">
@@ -286,13 +308,16 @@
       <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredVersion" Value="11.00.00" Type="String">
+      <Value Key="RequiredOqtaneVersion" Value="02.01.00" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="RequiredVersion" Value="12.00.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Version" Value="02.00.01" Type="String">
+      <Value Key="Version" Value="03.00.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
     </Entity>
@@ -314,6 +339,11 @@
       <Value Key="UseForList" Value="False" Type="Boolean" />
       <Value Key="ViewNameInUrl" Value="" Type="String" />
     </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-ContentGroup" AttributeSetName="2SexyContent-ContentGroup" EntityGUID="1e856320-a6c1-4822-95c5-e284abbac2b0" Json="True">
+      <Value Key="Content" Value="f36ef567-5cbf-4332-82bc-f901795fb0ff" Type="Entity" />
+      <Value Key="Presentation" Value="null" Type="Entity" />
+      <Value Key="Template" Value="6ca4c8d9-ea13-4cf3-b351-3c009c12dada" Type="Entity" />
+    </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="0b23b937-2b6d-4f9c-93ff-a7d7d30250f0" AttributeSetName="Iframe" EntityGUID="f36ef567-5cbf-4332-82bc-f901795fb0ff">
       <Value Key="EmbedURL" Value="https://2sxc.org/en" Type="Hyperlink">
         <Dimension DimensionID="131" ReadOnly="false" />
@@ -334,6 +364,6 @@
   </Entities>
   <PortalFiles />
   <PortalFolders>
-    <Folder Id="9935" RelativePath="adam/IFrame2/" />
+    <Folder Id="13409" RelativePath="adam/IFrame3/" />
   </PortalFolders>
 </SexyContent>
