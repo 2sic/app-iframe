@@ -1,18 +1,32 @@
 <image src="app-icon.png" align="right" width="200px">
 
-# IFrame App for DNN (DotNetNuke)
+# IFrame 2 - IFrame App
+
+> This is a 2sxc App for [DNN ☢️](https://www.dnnsoftware.com/) and [Oqtane 💧](https://www.oqtane.org/)
 
 A IFrame App to use with 2sxc
 
-## Installing the app
+| Aspect              | Status | Comments or Version |
+| ------------------- | :----: | ------------------- |
+| 2sxc                | ✅    | IFrame v3 requires 2sxc v12.00
+| Dnn                 | ✅    | For v7, v8 and v9
+| Oqtane 2            | ✅    | Requires v2.00
+| No jQuery           | ✅    | 
+| Live Demo           | ➖    |
+| Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/-7DXsLjq) on [azing.org](https://azing.org/2sxc)
+| Source & License    | ✅    | included, ISC/MIT
+| App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe-for-2sxc)
+| Best Practices      | ✅    | Uses v12.05 conventions
+| Bootstrap 3, 4, 5   | ✅    |
 
-To install the app, follow the ["Installing IFrame" checklist](https://azing.org/2sxc/r/-7DXsLjq)
 
 ## Customizing the app
 
-### Configuration (Settings, Resources)
+Configuration (Settings, Resources)
 
 The IFrame App has neither app settings nor app resources.
+
+Since it's super simple and open-source, you can adjust as you need.
 
 ## Screenshots
 
