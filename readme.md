@@ -2,7 +2,7 @@
 
 # IFrame 3 - IFrame App
 
-> This is a 2sxc App for [DNN ☢️](https://www.dnnsoftware.com/) and [Oqtane 💧](https://www.oqtane.org/)
+> This is a [2sxc](https://2sxc.org) App for [DNN ☢️](https://www.dnnsoftware.com/) and [Oqtane 💧](https://www.oqtane.org/)
 
 A IFrame App to use with 2sxc
 
@@ -31,3 +31,10 @@ Since it's super simple and open-source, you can adjust as you need.
 ## Screenshots
 
 Read more about it in the [App Catalog](https://2sxc.org/en/apps/app/iframe-for-2sxc)
+
+## History
+
+1. V1 ca. 2014
+1. V2 ca. 2020
+1. V3 2021-09 
+    1. Updated to 2sxc 12 Standard and made hybrid for use in Oqtane
