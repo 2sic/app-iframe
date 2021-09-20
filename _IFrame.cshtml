@@ -1,7 +1,7 @@
 @inherits Custom.Hybrid.Razor12
 @using ToSic.Razor.Blade;
 
-<div class='app-iframe-holder' style='width:100%; max-width:100%;' @Edit.TagToolbar(Content)>
+<div class='app-iframe-holder' style='width:100%; max-width:100%; position:relative;' @Edit.TagToolbar(Content)>
 
   @* Show a nice hint if the IFrame is showing demo material *@
   @if (Content.IsDemoItem) {
@@ -24,6 +24,7 @@
         padding: 0;
         height: @(Content.Height)px;
         width: @(Content.Width)%;
+        display: block;
         overflow: @(Content.EnableScrollbar == true ? "auto" : "hidden");'>
   </iframe>
 </div>
