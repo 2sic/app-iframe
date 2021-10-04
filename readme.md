@@ -1,6 +1,6 @@
 <image src="app-icon.png" align="right" width="200px">
 
-# IFrame 3 - IFrame App
+# IFrame 3 App for .net CMSs
 
 > This is a [2sxc](https://2sxc.org) App for [DNN ☢️](https://www.dnnsoftware.com/) and [Oqtane 💧](https://www.oqtane.org/)
 
@@ -16,21 +16,18 @@ An IFrame App to use with 2sxc
 | Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/-7DXsLjq) on [azing.org](https://azing.org/2sxc)
 | Source & License    | ✅    | included, ISC/MIT
 | App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe-for-2sxc)
+| Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe-for-2sxc)
 | Best Practices      | ✅    | Uses v12.05 conventions
 | Bootstrap 3, 4, 5   | ✅    |
 
 
-## Customizing the app
+## Customize the App
 
 Configuration (Settings, Resources)
 
 The IFrame App has neither app settings nor app resources.
 
 Since it's super simple and open-source, you can adjust as you need.
-
-## Screenshots
-
-Read more about it in the [App Catalog](https://2sxc.org/en/apps/app/iframe-for-2sxc)
 
 ## History
 
