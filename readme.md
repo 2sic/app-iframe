@@ -15,8 +15,8 @@ An IFrame App to use with 2sxc
 | Live Demo           | ➖    |
 | Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/-7DXsLjq) on [azing.org](https://azing.org/2sxc)
 | Source & License    | ✅    | included, ISC/MIT
-| App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe-for-2sxc)
-| Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe-for-2sxc)
+| App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe3-hybrid-for-dnn-and-oqtane)
+| Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe3-hybrid-for-dnn-and-oqtane)
 | Best Practices      | ✅    | Uses v12.05 conventions
 | Bootstrap 3, 4, 5   | ✅    |
 
