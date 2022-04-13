@@ -31,7 +31,10 @@ Since it's super simple and open-source, you can adjust as you need.
 
 ## History
 
-1. V1 ca. 2014
-1. V2 ca. 2020
-1. V3 2021-09 
+1. V01.00.00 ca. 2014
+1. V02.00.00 ca. 2020
+1. V03.00.00 2021-09 
     1. Updated to 2sxc 12 Standard and made hybrid for use in Oqtane
+1. V03.01.00 2022-04
+    1. Moved all access of Services to ToSic.Sxc.Services
+    2. Changed <img> tags to use IImageService
