@@ -8,7 +8,7 @@ An IFrame App to use with 2sxc
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | IFrame v3 requires 2sxc v12.00
+| 2sxc                | ✅    | IFrame v3 requires 2sxc v13.10
 | Dnn                 | ✅    | For v7, v8 and v9
 | Oqtane 2            | ✅    | Requires v2.00
 | No jQuery           | ✅    | 
@@ -17,7 +17,7 @@ An IFrame App to use with 2sxc
 | Source & License    | ✅    | included, ISC/MIT
 | App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe3-hybrid-for-dnn-and-oqtane)
 | Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe3-hybrid-for-dnn-and-oqtane)
-| Best Practices      | ✅    | Uses v12.05 conventions
+| Best Practices      | ✅    | Uses v13.10 conventions
 | Bootstrap 3, 4, 5   | ✅    |
 
 
