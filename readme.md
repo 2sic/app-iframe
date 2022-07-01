@@ -38,3 +38,6 @@ Since it's super simple and open-source, you can adjust as you need.
 1. V03.01.00 2022-04
     1. Moved all access of Services to ToSic.Sxc.Services
     2. Changed <img> tags to use IImageService
+1. V03.02.00 2022-06
+    1. Replaced all base classes with their 2sxc 14 equivalents 
+    1. Replaced GetService<> with the new ServiceKit14
