@@ -1,7 +1,7 @@
 @inherits Custom.Hybrid.Razor14
 @using ToSic.Razor.Blade;
 
-<div class='app-iframe-holder' style='width:100%; max-width:100%; position:relative;' @Edit.TagToolbar(Content)>
+<div class='app-iframe-holder' style='width:100%; max-width:100%; position:relative;' @Kit.Toolbar.Default(Content)>
 
   @* Show a nice hint if the IFrame is showing demo material *@
   @if (Content.IsDemoItem) {

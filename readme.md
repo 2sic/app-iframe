@@ -8,7 +8,7 @@ An IFrame App to use with 2sxc
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | IFrame v3 requires 2sxc v15.03
+| 2sxc                | ✅    | IFrame v3 requires 2sxc v15.04
 | Dnn                 | ✅    | For v7, v8 and v9
 | Oqtane 2            | ✅    | Requires v2.00
 | No jQuery           | ✅    | 
@@ -37,9 +37,9 @@ Since it's super simple and open-source, you can adjust as you need.
   * Updated to 2sxc 12 Standard and made hybrid for use in Oqtane
 * v.03.01.00 2022-04
   * Moved all access of Services to ToSic.Sxc.Services
-  * Changed <img> tags to use IImageService
+  * Changed `<img>` tags to use IImageService
 * v.03.02.00 2022-06
-  * Replaced all base classes with their 2sxc 14 equivalents 
+  * Replaced all base classes with their 2sxc 14 equivalents
   * Replaced GetService<> with the new ServiceKit14
 * v.03.03.00 2023-02
   * Removed _ from Filenames
