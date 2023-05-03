@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.09.00" ExportDate="2022-09-21T08:42:17.733559+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="16.00.00" ExportDate="2023-05-03T11:45:26.9640663+02:00">
   <Header>
     <App Guid="e2b4a77b-63cc-43c4-8b9d-4a0041efd4b7" />
     <Language Default="en-us" />
@@ -9,7 +9,7 @@
     </Dimensions>
   </Header>
   <AttributeSets>
-    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="DemoMode" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="c03efb06-10e4-4a93-96d2-3b69a3cd32c5" Json="True" KeyNumber="4848">
@@ -59,17 +59,17 @@
             <Value Key="InputFontFamily" Value="" Type="String">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="RowCount" Value="3" Type="Number">
+            <Value Key="RowCount" Value="3.0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
           </Entity>
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes />
     </AttributeSet>
-    <AttributeSet StaticName="0b23b937-2b6d-4f9c-93ff-a7d7d30250f0" Name="Iframe" Description="Iframe" Scope="Default" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="0b23b937-2b6d-4f9c-93ff-a7d7d30250f0" Name="Iframe" Scope="Default" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="188088b7-ac09-4743-bbb3-f50f292c3632" Json="True" KeyNumber="1128">
@@ -223,13 +223,13 @@
             </Value>
           </Entity>
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Number" AttributeSetName="@Number" EntityGUID="c4b5ca25-f711-49bf-ac5c-f9cf58ab8d68" Json="True" KeyNumber="1131">
-            <Value Key="Decimals" Value="0" Type="Number">
+            <Value Key="Decimals" Value="0.0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="Max" Value="100" Type="Number">
+            <Value Key="Max" Value="100.0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="Min" Value="50" Type="Number">
+            <Value Key="Min" Value="50.0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
           </Entity>
@@ -268,13 +268,13 @@
             </Value>
           </Entity>
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Number" AttributeSetName="@Number" EntityGUID="747e7d9a-c0e6-41e4-b593-e31e4d42af93" Json="True" KeyNumber="1132">
-            <Value Key="Decimals" Value="0" Type="Number">
+            <Value Key="Decimals" Value="0.0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="Max" Value="1800" Type="Number">
+            <Value Key="Max" Value="1800.0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
-            <Value Key="Min" Value="50" Type="Number">
+            <Value Key="Min" Value="50.0" Type="Number">
               <Dimension DimensionID="131" ReadOnly="false" />
             </Value>
           </Entity>
@@ -371,13 +371,13 @@
       <Value Key="RequiredOqtaneVersion" Value="03.01.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredVersion" Value="14.09.00" Type="String">
+      <Value Key="RequiredVersion" Value="15.04.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Version" Value="03.02.01" Type="String">
+      <Value Key="Version" Value="03.03.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
     </Entity>
@@ -392,19 +392,60 @@
     </Entity>
     <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="6ca4c8d9-ea13-4cf3-b351-3c009c12dada" Json="True">
       <Value Key="ContentDemoEntity" Value="f36ef567-5cbf-4332-82bc-f901795fb0ff" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="0b23b937-2b6d-4f9c-93ff-a7d7d30250f0" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="IFrame" Type="String" />
-      <Value Key="Path" Value="_IFrame.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="Default,ListContent" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
+      <Value Key="ContentTypeStaticName" Value="0b23b937-2b6d-4f9c-93ff-a7d7d30250f0" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="Icon" Value="" Type="Hyperlink">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="Identifier" Value="" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="IsHidden" Value="False" Type="Boolean">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="ListContentTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="Location" Value="Site" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="IFrame" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="Path" Value="IFrame.cshtml" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="PresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="PublishData" Value="False" Type="Boolean">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="SearchIndexingDisabled" Value="False" Type="Boolean">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="SearchIndexingStreams" Value="" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="StreamsToPublish" Value="Default,ListContent" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="Type" Value="C# Razor" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="UseForList" Value="False" Type="Boolean">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="ViewController" Value="" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
+      <Value Key="ViewNameInUrl" Value="" Type="String">
+        <Dimension DimensionID="131" ReadOnly="false" />
+      </Value>
     </Entity>
     <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-ContentGroup" AttributeSetName="2SexyContent-ContentGroup" EntityGUID="1e856320-a6c1-4822-95c5-e284abbac2b0" Json="True">
       <Value Key="Content" Value="f36ef567-5cbf-4332-82bc-f901795fb0ff" Type="Entity" />
@@ -436,13 +477,13 @@
       <Value Key="Advanced" Value="" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="AspectRatio" Value="1" Type="Number">
+      <Value Key="AspectRatio" Value="1.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="Format" Value="" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Height" Value="100" Type="Number">
+      <Value Key="Height" Value="100.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="ItemIdentifier" Value="IFrame" Type="String">
@@ -457,7 +498,7 @@
       <Value Key="SettingsIdentifier" Value="Images.IFrame" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Width" Value="100" Type="Number">
+      <Value Key="Width" Value="100.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
     </Entity>
@@ -465,13 +506,13 @@
       <Value Key="Advanced" Value="" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="AspectRatio" Value="1" Type="Number">
+      <Value Key="AspectRatio" Value="1.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="Format" Value="" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Height" Value="100" Type="Number">
+      <Value Key="Height" Value="100.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="ItemIdentifier" Value="IFrame" Type="String">
@@ -486,7 +527,7 @@
       <Value Key="SettingsIdentifier" Value="Images.IFrame" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Width" Value="100" Type="Number">
+      <Value Key="Width" Value="100.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
     </Entity>
@@ -512,16 +553,16 @@
       <Value Key="ByUrlParameters" Value="False" Type="Boolean">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="Duration" Value="14400" Type="Number">
+      <Value Key="Duration" Value="14400.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="DurationEditors" Value="300" Type="Number">
+      <Value Key="DurationEditors" Value="300.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="DurationSystemAdmin" Value="300" Type="Number">
+      <Value Key="DurationSystemAdmin" Value="300.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="DurationUsers" Value="-1" Type="Number">
+      <Value Key="DurationUsers" Value="-1.0" Type="Number">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="IsEnabled" Value="True" Type="Boolean">
