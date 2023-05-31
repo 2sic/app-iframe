@@ -8,10 +8,10 @@ An IFrame App to use with 2sxc
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | IFrame v3 requires 2sxc v15.04
-| Dnn                 | ✅    | For v7, v8 and v9
-| Oqtane 2            | ✅    | Requires v2.00
-| No jQuery           | ✅    | 
+| 2sxc                | ✅    | IFrame v3 requires 2sxc v16.02
+| Dnn                 | ✅    | For v9.6.1
+| Oqtane 2            | ✅    | Requires v3.04
+| No jQuery           | ✅    |
 | Live Demo           | ➖    |
 | Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/-7DXsLjq) on [azing.org](https://azing.org/2sxc)
 | Source & License    | ✅    | included, ISC/MIT
@@ -43,3 +43,6 @@ Since it's super simple and open-source, you can adjust as you need.
   * Replaced GetService<> with the new ServiceKit14
 * v.03.03.00 2023-02
   * Removed _ from Filenames
+* v03.04.00 2023-05
+  * 2sxc 16.01 coding conventions
+  * everything typed
