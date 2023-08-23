@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="16.01.01" ExportDate="2023-05-31T16:35:57.8122567+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="16.04.00" ExportDate="2023-08-23T18:02:22.0321807+02:00">
   <Header>
     <App Guid="e2b4a77b-63cc-43c4-8b9d-4a0041efd4b7" />
     <Language Default="en-us" />
@@ -371,7 +371,7 @@
       <Value Key="RequiredOqtaneVersion" Value="03.04.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredVersion" Value="16.02.00" Type="String">
+      <Value Key="RequiredVersion" Value="16.04.00" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
@@ -473,66 +473,7 @@
       <Value Key="Template" Value="6ca4c8d9-ea13-4cf3-b351-3c009c12dada" Type="Entity" />
     </Entity>
     <Entity TargetType="4" AssignmentObjectType="Entity" AttributeSetStaticName="529ba3a2-d7d4-4f40-a81b-ff819de03a9e" AttributeSetName="IsDefaultDecorator" EntityGUID="8caded94-d16c-478c-86ff-5158bbf37d16" Json="True" KeyGuid="6ca4c8d9-ea13-4cf3-b351-3c009c12dada" />
-    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="1a86b080-9e0d-4207-97d2-04edf80b4f2f" AttributeSetName="⚙️Image" EntityGUID="684c8cc8-5a65-4ec5-9b9d-5971403b23e8" Json="True">
-      <Value Key="Advanced" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="AspectRatio" Value="1.0" Type="Number">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="Format" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="Height" Value="100.0" Type="Number">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="ItemIdentifier" Value="IFrame" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="ResizeMode" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="ScaleMode" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="SettingsIdentifier" Value="Images.IFrame" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="Width" Value="100.0" Type="Number">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-    </Entity>
-    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="1a86b080-9e0d-4207-97d2-04edf80b4f2f" AttributeSetName="⚙️Image" EntityGUID="684c8cc8-5a65-4ec5-9b9d-5971403b23e8" Json="True">
-      <Value Key="Advanced" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="AspectRatio" Value="1.0" Type="Number">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="Format" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="Height" Value="100.0" Type="Number">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="ItemIdentifier" Value="IFrame" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="ResizeMode" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="ScaleMode" Value="" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="SettingsIdentifier" Value="Images.IFrame" Type="String">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-      <Value Key="Width" Value="100.0" Type="Number">
-        <Dimension DimensionID="131" ReadOnly="false" />
-      </Value>
-    </Entity>
     <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="7edd0b8d-1405-44ed-ac33-d0d63a274bd6" AttributeSetName="⚙️Images" EntityGUID="4b17c714-3478-466d-a568-58b27d99e5a5" Json="True">
-      <Value Key="Items" Value="684c8cc8-5a65-4ec5-9b9d-5971403b23e8" Type="Entity" />
       <Value Key="SettingsIdentifier" Value="Images" Type="String">
         <Dimension DimensionID="131" ReadOnly="false" />
       </Value>
