@@ -18,7 +18,9 @@ An IFrame App to use with 2sxc
 | App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe3-hybrid-for-dnn-and-oqtane)
 | Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/iframe3-hybrid-for-dnn-and-oqtane)
 | Best Practices      | ✅    | Uses v13.10 conventions
-| Bootstrap 3, 4, 5   | ✅    |
+| Bootstrap 3         | ❌    | Last supported in v03.21.00
+| Bootstrap 4         | ❌    | Last supported in v03.21.00
+| Bootstrap 5         | ✅    |
 
 
 ## Customize the App
@@ -50,4 +52,7 @@ Since it's super simple and open-source, you can adjust as you need.
   * strong typed
   * Auto Generated Class
 * v03.17.01 2024-07
-  * Update app.sln and app.csproj 
+  * Update app.sln and app.csproj
+* v03.21.01 2026-10
+  * Removed Bootstrap 3 and Bootstrap 4 support; the app is now Bootstrap 5 only
+  * For Bootstrap 3 or Bootstrap 4, use v03.21.00
